@@ -1,5 +1,5 @@
 context:
-  version: "1.3.0"
+  version: "1.6.0"
 
 package:
   name: mcp-grafana
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/grafana/mcp-grafana/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 0e5c3849487ffe6e8c8804ef600aaf1bcbcbb182fa202636cfe6d8deb9f5d3b1
+  sha256: 6e9c9f85f22cd4e3ce748e95b92a3aa7b208a0746779cedca1698e766042495f
   target_directory: src
 
 build:
